@@ -1,0 +1,15 @@
+.aside__button {
+    cursor: pointer;
+    color: #000000;
+    border: 1px solid rgb(142, 105, 132);
+    line-height: 1.7;
+}
+
+.aside__link {
+    cursor: pointer;
+    text-decoration: none;
+    border: 1px solid rgb(142, 105, 132);
+    color: black;
+    background-color: #edecec;
+    padding: 5px;
+}

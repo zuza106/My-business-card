@@ -1,0 +1,18 @@
+.navigation__list {
+    color: rgb(142, 105, 132);
+    list-style-type: none;
+    text-decoration: none;
+    display: block;
+    margin: 6px auto;
+    max-width: 200px;
+}
+
+
+
+navigation__list:hover {
+    border-bottom: 1px solid;
+}
+
+navigation__list:active {
+    color: hsl(317, 61%, 73%);
+}

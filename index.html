@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja wizytówka</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/aside.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <header id="moja-wizytówka" class="header">
+        <h1 class="header__title">Moja wizytówka</h1>
+        <nav class="navigation">
+            <ul>
+                <li class="navigation__list"><a href="#moja-wizytówka" class="navigation__list">Moja wizytówka</a></li>
+                <li class="navigation__list"><a href="#witaj" class="navigation__list">Witaj</a></li>
+                <li class="navigation__list"><a href="#czym-się-zajmuję?" class="navigation__list">Czym się zajmuję?</a>
+                </li>
+                <li class="navigation__list"><a href="#moje-pasje" class="navigation__list">Moje pasje</a></li>
+                <li class="navigation__list"><a href="#moje-ulubione-rzeczy" class="navigation__list">Moje ulubione
+                        rzeczy</a></li>
+            </ul>
+        </nav>
+        <aside class="aside">
+            <button class="aside__button js-buttonDarkMode">Przejdż na tryb <span class="js-changeText">ciemny
+                    🌙</span></button>
+            <a class="aside__link" rel="noreferrer noopener" href="https://www.youtube.com/watch?v=Qh60c0BDKYs"
+                target="_blank" title="Włączenie muzyki w nowej karcie">Włącz muzykę (otwiera się w
+                nowej karcie)</a>
+        </aside>
+    </header>
+    <main id="witaj" class="main">
+        <h2 class="main__captions">Witaj na mojej wizytówkowej stronie</h2>
+        <img class="main__image" width="200" height="250" src="https://i.postimg.cc/vZPrThWF/zdj-cie-zuzi.jpg"
+            alt="Zdjęcie Zuzi">
+        <button class="main__button js-removePhoto js-removeButton">Usuń zdjęcie</button>
+        <p>Nazywam się Zuzia, a oto moja mała wizytówka.</p>
+        <section id="czym-się-zajmuję?">
+            <h2 class="main__captions">Czym się zajmuję?</h2>
+            <p>Jestem dyplomowanym coachem, tutorem rozwojowym, nauczycielem akademickim.</p>
+            <p>Działam w obszarze pracy z ludźmi, co bardzo lubię. Natomiast poszukuję zmiany lub też otwarcia kolejnych
+                opcji,
+                a także nabycia umiejętności twardych. Stąd też rozpoczęłam kurs z frontendu. Jestem bardzo ciekawa co z
+                tego
+                wyjdzie </p>
+        </section>
+        <section id="moje-pasje">
+            <h2 class="main__captions">Moje pasje</h2>
+            <p>Pasjonuję się ludźmi i różnymi miejscami na świecie, dlatego bardzo lubię psychologię oraz podróże.
+                Tańczę
+                taniec
+                towarzyski, lubię kino i książki. Uwielbiam kawę, szczególnię parzoną metodami elternatywnymi. Uczę się
+                włoskiego i gram nieco na gitarze.</p>
+        </section>
+        <section id="moje-ulubione-rzeczy">
+            <div class="section__tableContainer">
+                <table class="table">
+                    <caption class="table__caption">Moje ulubione rzeczy</caption>
+                    <tr>
+                        <th scope="col" colspan="2" class="table__cell table__cell--header">Faworyci</th>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="table__cell table__cell--header">Kawa</th>
+                        <td class="table__cell">Kawa parzona metodami elternatywnymi np. drip, chemex lub też dobre
+                            espresso
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="table__cell table__cell--header">Herbata</th>
+                        <td class="table__cell">Zielona</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" rowspan="3" class="table__cell table__cell--header">Zajęcie</th>
+                        <td class="table__cell">Spędzanie czasu z bliskimi</td>
+                    </tr>
+                    <tr>
+                        <td class="table__cell">Podróżowanie</td>
+                    </tr>
+                    <tr>
+                        <td class="table__cell">Ksiązka, kino, teatr</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" rowspan="3" class="table__cell table__cell--header">Sport</th>
+                        <td class="table__cell">Taniec towarzyski</td>
+                    </tr>
+                    <tr>
+                        <td class="table__cell">Joga</td>
+                    </tr>
+                    <tr>
+                        <td class="table__cell">Nordic walking</td>
+                    </tr>
+
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        Wszelkie prawa są zastrzeżone
+    </footer>
+
+</body>
+
+</html>

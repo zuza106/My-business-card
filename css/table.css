@@ -1,0 +1,38 @@
+.table {
+    border: 3px solid rgb(142, 105, 132);
+    border-collapse: collapse;
+    text-align: center;
+    padding: 70px;
+    margin: 30px auto;
+
+}
+
+
+.table__cell {
+    border: 1px solid rgb(142, 105, 132);
+
+}
+
+.table__cell:hover {
+    background-color: rgb(246, 192, 231);
+
+}
+
+.table__cell--header {
+    background-color: rgb(246, 192, 231);
+}
+
+.table__cell--header:hover {
+    background-color: hsl(317, 30%, 39%);
+}
+
+
+
+.table__caption {
+    caption-side: top;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(142, 105, 132);
+}

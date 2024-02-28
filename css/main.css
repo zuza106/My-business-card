@@ -1,0 +1,22 @@
+.main__captions {
+    color: rgb(142, 105, 132);
+}
+
+
+.main__captions--bright {
+    color: white;
+}
+
+
+.main__image {
+    border-radius: 50%;
+    box-shadow: 5px 5px 0 1px #C6C0C3;
+}
+
+
+.main__button {
+    cursor: pointer;
+    color: #000000;
+    border: 1px solid rgb(142, 105, 132);
+    line-height: 1.7;
+}
