@@ -4,13 +4,11 @@
     text-align: center;
     padding: 70px;
     margin: 30px auto;
-
 }
 
 
 .table__cell {
     border: 1px solid rgb(142, 105, 132);
-
 }
 
 .table__cell:hover {
