@@ -4,8 +4,8 @@
 
 
     const changeCaptionsColor = (changeDarkMode) => {
-        let main__captions = document.querySelector(".main__captions");
-        let brightMain__captions = document.querySelector(".main__captions--bright");
+        const main__captions = document.querySelector(".main__captions");
+        const brightMain__captions = document.querySelector(".main__captions--bright");
 
         if (body.classList.contains("body--darkTheme")) {
             main__captions.classList.toggle = ("main__captions--bright")
@@ -16,9 +16,9 @@
 
 
     const changeDarkMode = () => {
-        let darkTheme = document.querySelector(".body--darkTheme");
-        let body = document.querySelector(".body");
-        let changeText = document.querySelector(".js-changeText");
+        const darkTheme = document.querySelector(".body--darkTheme");
+        const body = document.querySelector(".body");
+        const changeText = document.querySelector(".js-changeText");
 
         body.classList.toggle("body--darkTheme");
         changeText.innerText = body.classList.contains("body--darkTheme") ? "jasny ☀️" : "ciemny 🌙";
@@ -38,7 +38,7 @@
         buttonDarkMode.addEventListener("click", changeDarkMode);
 
 
-        let removePhoto = document.querySelector(".js-removePhoto");
+        const removePhoto = document.querySelector(".js-removePhoto");
         removePhoto.addEventListener("click", removeImage);
 
     };
